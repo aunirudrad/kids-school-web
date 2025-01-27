@@ -14,10 +14,10 @@
 
 /* shared colors */
 
-.color-1{
+.color-1-orange{
     color: #FEA301;
 }
-.color-2{
+.color-2-skyblue{
     color: #01ACFD;
 }
 .color-3{
@@ -25,6 +25,9 @@
 }
 .color-4{
     color: #5D58EF;
+}
+.color-5-black{
+    color: black;
 }
 
 /* shared styles */
@@ -41,7 +44,16 @@
     font-size: 1.25rem;
     font-weight: 600;
     line-height: 30px;
-
+}
+.btn-2{
+    background-color: #000000;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 47px;
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 30px;
 }
 
 /* navbar styles */
@@ -89,6 +101,33 @@
     display: none;
 }
 
+
+/* hero banner section styles */
+
+.banner-container{
+    margin: 0 140px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-contents{
+    max-width: 640px;
+    margin: 122px 0;
+}
+
+.contents-title{
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 61px;
+}
+
+.contents-description{
+    font-size: 1.25rem;
+    margin: 24px 0;
+}
+
+
+
 @media screen and (max-width:576px) {
     
     .navbar-container{
@@ -111,6 +150,26 @@
     }
     .menu-icon{
         display: inline;
+    }
+
+    .banner-container{
+        margin: 8px 16px;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .banner-container img{
+        width: 100%;
+    }
+
+    .banner-contents{
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .contents-title{
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: normal;
     }
 }
 
