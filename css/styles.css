@@ -287,4 +287,17 @@
         font-weight: 700;
         line-height: normal;
     }
+
+    .curriculum-container{
+        padding: 0 16.5px;
+    }
+    .curriculum-title{
+        margin: 40px 0 20px 0;
+        font-size: 1.6rem;
+    }
+    .curriculum-card-container{
+
+        /* margin: 20px 16.5px; */
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
