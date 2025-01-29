@@ -514,6 +514,10 @@ marquee {
         max-width: 180px;
     }
 
+    .stories-card-container-2 .stories-card-contents{
+        margin: 12px 22px 17px;
+    }
+
     .btn-stories-4{
         font-size: 0.5rem;
         padding: 5px 11px 6px;
